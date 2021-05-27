@@ -51,3 +51,4 @@ https://hub.docker.com/editions/community/docker-ce-desktop-windows/
 # Visual Studio Code Remote - WSL install
 
 在Visual Studio Code安装wsl插件后，可以直接通过vscode 访问编辑Ubuntu中的项目
+在Ubuntu目录中输入 code . 就可以调用起Visual Studio Code
