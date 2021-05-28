@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  web_server:
+    image: httpd:latest-alpine
+    container_name: apache
+    ports:
+      - 80:80
+    volumes:
+      - ./conf:/usr/local/apache2/conf
+
